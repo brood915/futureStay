@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/brood915/ngBoilerplate.git"
   },
-  "author": "Jesus Rodriguez",
+  "author": "Kevin Jang",
   "license": "MIT",
   "homepage": "https://github.com/brood915/ngBoilerplate",
   "dependencies": {
