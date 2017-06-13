@@ -6,7 +6,7 @@ This workflow serves as a starting point for building Angular 1.x applications u
 
 * Modified https://github.com/preboot/angular-webpack for my own usage.
     - Added SASS/SCSS
-    - Modified folder structure, following johnpapa's styleguide
+    - Modified folder structure, following Todd Motto's styleguide
     - Changed some parts of the config to meet the latest webpack 2 requirements
     
 * Heavily commented webpack configuration with reasonable defaults.
