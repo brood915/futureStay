@@ -1,6 +1,6 @@
 {
   "name": "angular-webpack-workflow",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "A workflow for Angular made with Webpack",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
@@ -11,14 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/preboot/angularjs-webpack.git"
+    "url": "https://github.com/brood915/ngBoilerplate.git"
   },
   "author": "Jesus Rodriguez",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/preboot/angularjs-webpack/issues"
-  },
-  "homepage": "https://github.com/preboot/angularjs-webpack",
+  "homepage": "https://github.com/brood915/ngBoilerplate",
   "dependencies": {
     "angular": "^1.5.0",
     "bootstrap": "^3.3.7"
