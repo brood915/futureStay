@@ -8,6 +8,7 @@ This workflow serves as a starting point for building Angular 1.x applications u
     - Added SASS/SCSS
     - Modified folder structure, following Todd Motto's styleguide
     - Changed some parts of the config to meet the latest webpack 2 requirements
+    - Added UI Router
     
 * Heavily commented webpack configuration with reasonable defaults.
 * ES6, and ES7 support with babel.
