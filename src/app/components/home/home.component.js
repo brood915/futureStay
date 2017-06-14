@@ -2,8 +2,8 @@ import template from './home.html';
 import angular from 'angular';
 
 class HomeCtrl {
+  /* @ngInject */
   constructor() {
-    this.name = 'world'
   }
 
 $onInit() {
