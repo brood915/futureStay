@@ -1,4 +1,7 @@
-<div class='main'>
-  <h1 class="title" ng-click="$ctrl.changeName()">Hello {{$ctrl.name | uppercase}}</h1>
-  <img src="/img/logo.png">
+<div>
+  <my-nav></my-nav>
+  <div class='main'>
+    <ui-view></ui-view>
+  </div>
+  <my-footer></my-footer>
 </div>
