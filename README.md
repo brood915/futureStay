@@ -1,6 +1,6 @@
 # angularjs-webpack
 
-A complete, yet simple, starter for Angular using Webpack.
+A complete, yet simple, starter for AngularJS using Webpack.
 
 This workflow serves as a starting point for building Angular 1.x applications using Webpack 2.x.
 
