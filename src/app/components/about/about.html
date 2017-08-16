@@ -1,3 +1,9 @@
 <div class='main'>
-  This is about page!
+  <form> 
+  <select ng-model="$ctrl.selected">
+    <option ng-repeat="x in $ctrl.list">{{x}}</option>
+  </select>
+  <button class="btn btn-primary" ng-click="$ctrl.submitIt()">Submit!</button>
+  </form>
+<div>{{$ctrl.returned}}</div>
 </div>

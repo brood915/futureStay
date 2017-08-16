@@ -1,60 +1,29 @@
-.navbar-inverse {
-    background-color: #000000;
-    border-color: #000000;
-}
-
-
-.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand  {
-    color: #FFFFFF;
-    font-weight: bold;
-}
-
-.navbar-inverse .navbar-brand  {
-    &:hover {
-        opacity: 0.5;
+#list {
+    list-style:none;
+    text-align: left;
+    width: 100%;
+    color: white;
+    background-color: black;
+    li:hover {
+        cursor: pointer;
+        opacity: 0.8;
     }
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    &:hover {
-        background-color: #FFFFFF;
-        color: #000000;
-    }
-
-    &:focus, &:active {
-        background-color: white;
-    }
+#dropdown {
+    width: 100px;
 }
 
-.navbar-inverse .navbar-collapse {
-    background-color: #000000;
+#dropdown>ul {
+  list-style: none;
+  color: white;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 20px;  
+  color: black;
 }
 
-
-.navbar-inverse .navbar-toggle {
-    border-color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background-color: #FFFFFF;
-    .icon-bar {
-        background-color: #000000;
-    }
-}
-
-
-.current {
-    background-color: #FFFFFF;
-    color: #000000 !important;
-}
-
-.collapse {
-  transition: all linear 0.5s;
-}
-
-
-@media (max-width: 360px) {
-    .navbar-inverse .navbar-brand  {
-        font-size: 15px;
-    }
+#dropdown:hover #dropList {
+    display: block;
 }

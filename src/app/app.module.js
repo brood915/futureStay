@@ -11,13 +11,9 @@ import uiRouter from '@uirouter/angularjs';
 export const AppModule = angular.module('app', [CommonModule, ComponentsModule, uiRouter])
   .component('app', AppComponent)
   .config(/* @ngInject */($stateProvider, $urlRouterProvider) => {
-    $urlRouterProvider.when('', '/home');
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.when('', '/about');
+    $urlRouterProvider.otherwise('/about');
     $stateProvider
-      .state('home', {
-        url: '/home',
-        component: 'home'
-      })
       .state('about', {
         url: '/about',
         component: 'about'
